@@ -1,40 +1,49 @@
-# World Diary
-This project is a personal travel blog website that I have developed using HTML and CSS.
+# Dunya Gunlugu - Kisisel Gezi Blogu
 
-# Dünya Günlüğü - Kişisel Gezi Blogu
-Modern web teknolojileri kullanarak geliştirdiğim kişisel gezi blogu websitesi. Frontend becerilerimi geliştirirken gerçek dünya deneyimini portfolyoma katmayı hedeflediğim bir projedir.
+Bu proje, HTML ve CSS kullanarak gelistirdigim kisisel gezi blogu websitesidir. Farkli ulkeler ve sehirler icin hazirladigim gezi notlarini, fotograf ve video icerikleriyle birlikte sunar.
 
-# ✨ Özellikler
-Dinamik İçerik: Her ülke/şehir için özel sayfalar
+## Ozellikler
+- Ulkeler/Sehirler icin ayri sayfalar
+- Fotograf galerileri
+- Video icerigi (MP4)
+- Basit ve anlasilir navigasyon
 
-Görsel Deneyim: Fotoğraf galerisi ve video içerikleri
+## Kullanilan Teknolojiler
+- HTML5
+- CSS3
 
-Kullanıcı Dostu: Sezgisel ve temiz navigasyon yapısı
+## Proje Yapisi
+```text
+.
+├── html/
+│   ├── index.html
+│   ├── italya.html
+│   ├── avusturya.html
+│   ├── fransa.html
+│   ├── cekya.html
+│   ├── almanya.html
+│   ├── hollanda.html
+│   ├── belcika.html
+│   ├── macaristan.html
+│   └── yunanistan.html
+├── fotograf/
+├── videolar/
+└── style.css
+```
 
-Performans Odaklı: Hızlı yüklenen, optimize edilmiş yapı
+## Yerelde Calistirma
+1. Projeyi klonla:
+   ```bash
+   git clone https://github.com/zeynepg22/world-diary.git
+   ```
+2. Klasore gir:
+   ```bash
+   cd world-diary
+   ```
+3. `html/index.html` dosyasini tarayicida ac.
 
-# 🛠️ Teknoloji Stack'i
-HTML5 - Semantik yapı
+## Gelistirme Notu
+Bu repo aktif olarak guncellenmektedir. Duzenli commit'ler ile tasarim, icerik ve yapisal iyilestirmeler eklenmektedir.
 
-CSS3 - Modern tasarım ve layout
-
-# 🎯 Geliştirme Planı
--> Yakın Dönem
-
- Responsive Design - Mobil, tablet ve desktop uyumluluğu
- 
- Tasarım Sistemi - Tutarlı tipografi ve renk paleti
- 
- Accessibility - WCAG standartlarına uygunluk
-
--> Gelecek Özellikler
- Animasyonlar - Smooth geçişler ve micro-interactions
- 
- JavaScript Integration - Interaktif bileşenler
- 
- SEO Optimizasyonu - Meta tags ve yapısal iyileştirmeler
-
-# 📈 Sürekli Geliştirme
-Bu proje aktif olarak geliştirilmektedir. 
-
-Eğitim ve portfolyo amaçlı kişisel projedir.
+## Lisans
+Egitim ve portfolyo amacli kisisel proje.
